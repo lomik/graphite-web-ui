@@ -124,7 +124,7 @@ function createTreePanel( rootNode ){
       listeners: {beforeload: setParams}
     })
   });
-  rootNode.appendChild(userGraphsNode);
+  // rootNode.appendChild(userGraphsNode);
 
   var treePanel = new Ext.tree.TreePanel({
     id: 'tree',
